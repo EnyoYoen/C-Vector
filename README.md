@@ -1,2 +1,2 @@
 # C-Vector
-C/C++ vector implementation
+C vector implementation
