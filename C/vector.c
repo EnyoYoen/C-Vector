@@ -31,10 +31,6 @@ Vector create_vector_with_size(unsigned int size)
 Vector create_vector(unsigned int item_size, unsigned int item_count)
 {
     void *data = malloc(item_size * item_count);
-    if (data == 0)
-    {
-        exit(1);
-    }
 
     Vector vector;
 
